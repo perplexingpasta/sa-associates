@@ -1,6 +1,7 @@
 MOST IMPORTANT
 add navbar
 make other pages
+better gallery for pdfs
 
 LESS IMPORTANT
 replace img w Image
@@ -8,6 +9,19 @@ replace youtube link in contact us website
 replace accent color in hover state in contact us
 add footer
 text selection highlight color
+gsap
+
+
+
+
+
+
+
+
+
+
+
+
 
 TO TALK
 mine's better

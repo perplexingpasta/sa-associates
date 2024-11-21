@@ -22,7 +22,7 @@ const page = () => {
       <main className="flex lg:flex-row flex-col w-full mb-20">
         <section className="lg:w-1/2 items-center justify-center align-middle flex">
           {/* <div className="h-[500px] pb-10 md:h-[650px] lg:h-[600px]"> */}
-          <div className="h-[50vh] pb-10 md:h-[65vh] lg:h-[60vh] w-10/12">
+          <div className="h-[50vh] w-full pb-10 md:h-[65vh] lg:h-[60vh] md:w-10/12">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18107.286219854777!2d78.37070052065248!3d17.431547947080812!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93004535aae9%3A0xdca1084745be8448!2sSA%20Associates!5e0!3m2!1sen!2sin!4v1732168242183!5m2!1sen!2sin"
               width="100%"

@@ -1,10 +1,10 @@
 import { Metadata } from "next";
-import Image from "next/image";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: 'About Us - SA Associates',
-  description: 'Welcome to the home page of Megapolis. Learn more about our services.',
+  title: "About Us - SA Associates",
+  description:
+    "Welcome to the home page of Megapolis. Learn more about our services.",
 };
 
 const page = () => {
@@ -16,10 +16,12 @@ const page = () => {
       </header>
       <main>
         {/* FOUNDER */}
-        <section className="flex w-full lg:flex-row mb-20">
-          <div className="w-1/2 max-w-[40vw] mx-20">
-            <h1 className="font-semibold text-3xl mb-3">The Founder</h1>
-            <p className="text-lg">
+        <section className="flex flex-col-reverse w-full md:flex-row mb-20">
+          <div className="md:w-1/2 md:max-w-[40vw] max-w-[90vw] mx-auto md:mx-20">
+            <h1 className="font-semibold text-2xl mt-10 md:mt-0 md:text-3xl mb-3">
+              The Founder
+            </h1>
+            <p className="md:text-lg">
               Dr. Sanjay Agarwal is a distinguished figure in the Indian
               Construction Industry with over 38 years of extensive experience
               in handling the Construction & Development of Highways, Bridges,
@@ -58,19 +60,19 @@ const page = () => {
               Effective Leaders.
             </p>
           </div>
-          <div className="w-1/2">
-            <Image
+          <div className="md:w-1/2">
+            <img
               src="/images/aboutus.jpeg"
-              width={750}
-              height={750}
-              className="rounded-2xl"
+              className="md:rounded-2xl w-full"
               alt=""
             />
           </div>
         </section>
         {/* SERVICES */}
-        <section className="max-w-[40vw] mx-20 mb-20">
-          <h1 className="font-semibold text-3xl mb-3">Our Services</h1>
+        <section className="md:max-w-[40vw] max-w-[90vw] mx-auto md:mx-20 mb-20">
+          <h1 className="font-semibold text-2xl md:text-3xl mb-3">
+            Our Services
+          </h1>
           <ul className="text-lg">
             <li>✦ Advisory</li>
             <li>✦ Industry Networking</li>

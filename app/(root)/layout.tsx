@@ -1,11 +1,16 @@
 "use client";
 import React from "react";
 import NavbarNextUI from "@/components/Navbar2";
+import dynamic from "next/dynamic";
 // import dynamic from "next/dynamic";
 
 // const DynamicWhatsapp = dynamic(() => import("@/components/Whatsapp"), {
 //   ssr: false,
 // });
+
+const DynamicFooter = dynamic(() => import("@/components/Footer"), {
+  ssr: false,
+});
 
 const layout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -17,6 +22,9 @@ const layout = ({ children }: { children: React.ReactNode }) => {
           <NavbarNextUI />
           {children}
           {/* <DynamicWhatsapp /> */}
+          <footer className="bg-black dark:bg-black-100">
+            <DynamicFooter />
+          </footer>
         </div>
       </div>
     </>
