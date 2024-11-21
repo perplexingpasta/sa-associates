@@ -1,5 +1,4 @@
 MOST IMPORTANT
-add navbar
 make other pages
 better gallery for pdfs
 

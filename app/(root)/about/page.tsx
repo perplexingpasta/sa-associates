@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-      <header id="contact" className="pt-20">
+      <header id="about" className="pt-20">
         <h1 className="heading relative block">About Us</h1>
         <h2 className="justify-center text-center text-lg font-light text-black-100 dark relative mb-16 items-center py-4"></h2>
       </header>
