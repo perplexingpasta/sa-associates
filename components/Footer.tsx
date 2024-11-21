@@ -41,14 +41,15 @@ const Footer = () => {
 
         <div className="relative flex flex-col lg:flex-1 lg:flex-row">
           <div className="flex">
-            <Link href="/" className="flex items-center space-x-2">
+            <Link href="/" className="flex items-center mx-auto space-x-2">
               <Image
                 src="/images/logo.png"
                 width={75}
                 height={75}
                 alt="Logo of SA Associates"
+                className="w-12 md:w-[75px]"
               />
-              <p className="text-4xl">SA Associates</p>
+              <p className="text-3xl md:text-4xl">SA Associates</p>
             </Link>
             <br />
             <br className="hidden md:block" />

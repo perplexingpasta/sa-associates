@@ -35,12 +35,12 @@ const page = () => {
 
         <section className="lg:w-1/2 max-w-[90vw] lg:max-w-[100vw] self-center">
           {/* LOCATION */}
-          <section className="relative mb-4 md:mb-10 text-2xl font-medium tracking-wide flex items-start">
+          <section className="relative mb-5 md:mb-10 text-2xl font-medium tracking-wide flex items-start">
             <img
               src="/images/location-black.svg"
               width={40}
               alt=""
-              className="inline-block"
+              className="inline-block w-8 md:w-[40px]"
             />
             <Link
               href="https://maps.app.goo.gl/mtL9tD6hisQqbAGq6"
@@ -56,12 +56,12 @@ const page = () => {
           </section>
 
           {/* CALL */}
-          <section className="relative mb-4 md:mb-10 text-2xl font-medium tracking-wide flex items-start">
+          <section className="relative mb-5 md:mb-10 text-2xl font-medium tracking-wide flex items-start">
             <img
               src="/images/call-black.svg"
               width={35}
               alt=""
-              className="inline-block"
+              className="inline-block w-8 md:w-[35px]"
             />
             <div className="ml-4 space-y-2 text-lg md:text-2xl">
               <Link
@@ -82,12 +82,12 @@ const page = () => {
           </section>
 
           {/* EMAIL */}
-          <section className="relative mb-4 md:mb-10 text-2xl font-medium tracking-wide flex items-start">
+          <section className="relative mb-5 md:mb-10 text-2xl font-medium tracking-wide flex items-start">
             <img
               src="/images/email-black.svg"
               width={35}
               alt=""
-              className="inline-block"
+              className="inline-block  w-8 md:w-[35px]"
             />
             <div className="ml-4 space-y-2 text-lg md:text-2xl hover:text-purple-900">
               <Link href="mailto:sanjay@sassociate.in" target="_blank">
@@ -97,12 +97,12 @@ const page = () => {
           </section>
 
           {/* WEBSITE */}
-          <section className="relative mb-4 md:mb-10 text-2xl font-medium tracking-wide flex items-start">
+          <section className="relative mb-5 md:mb-10 text-2xl font-medium tracking-wide flex items-start">
             <img
               src="/images/globe-black.svg"
               width={32}
               alt=""
-              className="inline-block"
+              className="inline-block  w-7 md:w-[32px]"
             />
             <div className="ml-4 space-y-2 text-lg md:text-2xl hover:text-purple-900">
               <Link href="https://www.youtube.com" target="_blank">
@@ -112,12 +112,12 @@ const page = () => {
           </section>
 
           {/* GSTIN */}
-          <section className="relative mb-4 md:mb-10 text-2xl font-medium tracking-wide flex items-start">
+          <section className="relative mb-5 md:mb-10 text-2xl font-medium tracking-wide flex items-start">
             <img
               src="/images/document-black.svg"
               width={35}
               alt=""
-              className="inline-block"
+              className="inline-block  w-7 md:w-[35px]"
             />
             <div className="ml-4 space-y-2 text-lg md:text-2xl">
               GSTIN: 36ADAPA3772A2Z8

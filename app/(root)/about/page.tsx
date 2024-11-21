@@ -16,9 +16,9 @@ const page = () => {
       </header>
       <main>
         {/* FOUNDER */}
-        <section className="flex flex-col-reverse w-full md:flex-row mb-20">
-          <div className="md:w-1/2 md:max-w-[40vw] max-w-[90vw] mx-auto md:mx-20">
-            <h1 className="font-semibold text-2xl mt-10 md:mt-0 md:text-3xl mb-3">
+        <section className="flex flex-col-reverse w-full lg:flex-row mb-10 md:mb-20">
+          <div className="lg:w-1/2 lg:max-w-[40vw] max-w-[85vw] mx-auto lg:mx-20">
+            <h1 className="font-semibold text-2xl mt-10 lg:mt-0 md:text-3xl mb-3">
               The Founder
             </h1>
             <p className="md:text-lg">
@@ -60,20 +60,20 @@ const page = () => {
               Effective Leaders.
             </p>
           </div>
-          <div className="md:w-1/2">
+          <div className="lg:w-1/2">
             <img
               src="/images/aboutus.jpeg"
-              className="md:rounded-2xl w-full"
+              className="lg:rounded-2xl w-full"
               alt=""
             />
           </div>
         </section>
         {/* SERVICES */}
-        <section className="md:max-w-[40vw] max-w-[90vw] mx-auto md:mx-20 mb-20">
+        <section className="lg:max-w-[40vw] max-w-[85vw] mx-auto lg:mx-20 mb-20">
           <h1 className="font-semibold text-2xl md:text-3xl mb-3">
             Our Services
           </h1>
-          <ul className="text-lg">
+          <ul className="md:text-lg">
             <li>✦ Advisory</li>
             <li>✦ Industry Networking</li>
             <li>✦ Mentoring</li>

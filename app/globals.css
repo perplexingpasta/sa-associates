@@ -10,6 +10,18 @@ body {
 
 @layer utilities {
   .heading {
-    @apply text-center text-4xl font-extrabold tracking-wider uppercase md:text-5xl;
+    @apply text-center text-4xl font-extrabold tracking-wider md:text-5xl;
   }
+}
+
+/* EMBLA CLASSES */
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
 }
