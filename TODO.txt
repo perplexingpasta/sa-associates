@@ -1,2 +1,15 @@
+MOST IMPORTANT
+add navbar
+make other pages
+
+LESS IMPORTANT
 replace img w Image
 replace youtube link in contact us website 
+replace accent color in hover state in contact us
+add footer
+text selection highlight color
+
+TO TALK
+mine's better
+new domain
+GMB profile optimization

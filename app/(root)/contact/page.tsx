@@ -1,19 +1,26 @@
 /* eslint-disable @next/next/no-img-element */
+import { Metadata } from "next";
 import Link from "next/link";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Contact Us - SA Associates",
+  description:
+    "Welcome to the home page of Megapolis. Learn more about our services.",
+};
 
 const page = () => {
   return (
     <>
-      <header id="contact" className="pt-40">
+      <header id="contact" className="pt-7 md:pt-20">
         <h1 className="heading relative block">Contact Us</h1>
-        <h2 className="justify-center text-center text-lg font-light text-black-100 dark relative mb-16 items-center py-4">
-          whottt the sigma
+        <h2 className="justify-center text-center text-lg font-light text-black-100 relative mb-7 md:mb-16 items-center py-4">
+          Feel free to reach out!
         </h2>
       </header>
 
-      <main className="flex w-full">
-        <section className="w-1/2 items-center justify-center align-middle flex">
+      <main className="flex lg:flex-row flex-col w-full mb-20">
+        <section className="lg:w-1/2 items-center justify-center align-middle flex">
           {/* <div className="h-[500px] pb-10 md:h-[650px] lg:h-[600px]"> */}
           <div className="h-[50vh] pb-10 md:h-[65vh] lg:h-[60vh] w-10/12">
             <iframe
@@ -21,15 +28,14 @@ const page = () => {
               width="100%"
               height="100%"
               className="border-0"
-              loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </section>
 
-        <section className="w-1/2">
+        <section className="lg:w-1/2 max-w-[90vw] lg:max-w-[100vw] self-center">
           {/* LOCATION */}
-          <section className="relative mb-10 text-2xl font-medium tracking-wide flex items-start">
+          <section className="relative mb-4 md:mb-10 text-2xl font-medium tracking-wide flex items-start">
             <img
               src="/images/location-black.svg"
               width={40}
@@ -40,23 +46,24 @@ const page = () => {
               href="https://maps.app.goo.gl/mtL9tD6hisQqbAGq6"
               target="_blank"
             >
-              <div className="ml-4 space-y-2 text-xl md:text-2xl hover:text-purple-900">
-                <p>TBQ Suite 10, 5th Floor, Elixir</p>
-                <p>Sattva Knowledge City, Gate No.6</p>
-                <p>Hyderabad, Telangana, 500081</p>
+              <div className="ml-4 space-y-2 text-lg md:text-2xl hover:text-purple-900">
+                <p>
+                  TBQ Suite 10, 5th Floor, Elixir <br /> Sattva Knowledge City,
+                  Gate No. 6 <br /> Hyderabad, Telangana, 500081
+                </p>
               </div>
             </Link>
           </section>
 
           {/* CALL */}
-          <section className="relative mb-10 text-2xl font-medium tracking-wide flex items-start">
+          <section className="relative mb-4 md:mb-10 text-2xl font-medium tracking-wide flex items-start">
             <img
               src="/images/call-black.svg"
               width={35}
               alt=""
               className="inline-block"
             />
-            <div className="ml-4 space-y-2 text-xl md:text-2xl">
+            <div className="ml-4 space-y-2 text-lg md:text-2xl">
               <Link
                 href="tel:+914069044164"
                 target="_blank"
@@ -75,14 +82,14 @@ const page = () => {
           </section>
 
           {/* EMAIL */}
-          <section className="relative mb-10 text-2xl font-medium tracking-wide flex items-start">
+          <section className="relative mb-4 md:mb-10 text-2xl font-medium tracking-wide flex items-start">
             <img
               src="/images/email-black.svg"
               width={35}
               alt=""
               className="inline-block"
             />
-            <div className="ml-4 space-y-2 text-xl md:text-2xl hover:text-purple-900">
+            <div className="ml-4 space-y-2 text-lg md:text-2xl hover:text-purple-900">
               <Link href="mailto:sanjay@sassociate.in" target="_blank">
                 sanjay@sassociate.in
               </Link>
@@ -90,14 +97,14 @@ const page = () => {
           </section>
 
           {/* WEBSITE */}
-          <section className="relative mb-10 text-2xl font-medium tracking-wide flex items-start">
+          <section className="relative mb-4 md:mb-10 text-2xl font-medium tracking-wide flex items-start">
             <img
               src="/images/globe-black.svg"
               width={32}
               alt=""
               className="inline-block"
             />
-            <div className="ml-4 space-y-2 text-xl md:text-2xl hover:text-purple-900">
+            <div className="ml-4 space-y-2 text-lg md:text-2xl hover:text-purple-900">
               <Link href="https://www.youtube.com" target="_blank">
                 sassociate.in
               </Link>
@@ -105,14 +112,14 @@ const page = () => {
           </section>
 
           {/* GSTIN */}
-          <section className="relative mb-10 text-2xl font-medium tracking-wide flex items-start">
+          <section className="relative mb-4 md:mb-10 text-2xl font-medium tracking-wide flex items-start">
             <img
               src="/images/document-black.svg"
               width={35}
               alt=""
               className="inline-block"
             />
-            <div className="ml-4 space-y-2 text-xl md:text-2xl">
+            <div className="ml-4 space-y-2 text-lg md:text-2xl">
               GSTIN: 36ADAPA3772A2Z8
             </div>
           </section>
